@@ -1,0 +1,177 @@
+{
+  "robots": [
+    {
+      "x": 1,
+      "y": 1,
+      "_prev_x": 2,
+      "_prev_y": 1,
+      "_prev_orientation": 1,
+      "objects": {
+        "apple": 1
+      },
+      "_orientation": 2,
+      "_is_leaky": true,
+      "_trace_history": [
+        {
+          "color": "seagreen",
+          "thickness": 2,
+          "prev_x": 70,
+          "x": 110,
+          "prev_y": 50,
+          "y": 50,
+          "grid_x": 2,
+          "grid_y": 1
+        },
+        {
+          "color": "seagreen",
+          "thickness": 2,
+          "prev_x": 110,
+          "x": 150,
+          "prev_y": 50,
+          "y": 50,
+          "grid_x": 3,
+          "grid_y": 1
+        },
+        {
+          "color": "seagreen",
+          "thickness": 2,
+          "prev_x": 150,
+          "x": 190,
+          "prev_y": 50,
+          "y": 50,
+          "grid_x": 4,
+          "grid_y": 1
+        },
+        {
+          "color": "seagreen",
+          "thickness": 2,
+          "prev_x": 190,
+          "x": 230,
+          "prev_y": 50,
+          "y": 50,
+          "grid_x": 5,
+          "grid_y": 1
+        },
+        {
+          "color": "seagreen",
+          "thickness": 2,
+          "prev_x": 230,
+          "x": 230,
+          "prev_y": 50,
+          "y": 40,
+          "grid_x": 5,
+          "grid_y": 1
+        },
+        {
+          "color": "seagreen",
+          "thickness": 2,
+          "prev_x": 230,
+          "x": 220,
+          "prev_y": 40,
+          "y": 40,
+          "grid_x": 5,
+          "grid_y": 1
+        },
+        {
+          "color": "seagreen",
+          "thickness": 2,
+          "prev_x": 230,
+          "x": 180,
+          "prev_y": 40,
+          "y": 40,
+          "grid_x": 4,
+          "grid_y": 1
+        },
+        {
+          "color": "seagreen",
+          "thickness": 2,
+          "prev_x": 190,
+          "x": 140,
+          "prev_y": 40,
+          "y": 40,
+          "grid_x": 3,
+          "grid_y": 1
+        },
+        {
+          "color": "seagreen",
+          "thickness": 2,
+          "prev_x": 150,
+          "x": 100,
+          "prev_y": 40,
+          "y": 40,
+          "grid_x": 2,
+          "grid_y": 1
+        },
+        {
+          "color": "seagreen",
+          "thickness": 2,
+          "prev_x": 110,
+          "x": 60,
+          "prev_y": 40,
+          "y": 40,
+          "grid_x": 1,
+          "grid_y": 1
+        }
+      ],
+      "_trace_style": "default",
+      "_trace_color": "seagreen",
+      "__id": 3,
+      "model": "2d red rover",
+      "initial_position": [
+        1,
+        1
+      ]
+    }
+  ],
+  "walls": {},
+  "small_tiles": false,
+  "rows": 1,
+  "cols": 5,
+  "objects": {
+    "5,1": {
+      "banana": 1
+    }
+  },
+  "goal": {
+    "possible_final_positions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "position": {
+      "image": "house",
+      "x": 1,
+      "y": 1
+    }
+  },
+  "description": [
+    "A simple, empty world, ready for Reeborg to explore."
+  ],
+  "editor": [
+    "'''Descripción: El mundo consta de que el robot vaya hasta la casilla",
+    "(5,1), recoga la manzana y ponga una banana en el ",
+    "mismo punto'''",
+    "print(\"¡Hola! Yo soy reeborg\")",
+    "print(\"Voy realizar una misión\")",
+    "move()",
+    "move()",
+    "move()",
+    "move()",
+    "#pause()",
+    "if object_here():",
+    "    take()",
+    "#pause()",
+    "put(\"banana\")",
+    "#pause()",
+    "turn_left()",
+    "turn_left()",
+    "#pause()",
+    "move()",
+    "move()",
+    "move()",
+    "move()",
+    "'''Autor: Juan F. Rivera'''",
+    "'''Fecha: 29/07/2019'''"
+  ]
+}
